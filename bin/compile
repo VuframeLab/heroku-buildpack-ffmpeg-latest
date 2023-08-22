@@ -52,7 +52,7 @@ if [[ -z $FFMPEG_DOWNLOAD_URL ]]; then
   # FFMPEG_DOWNLOAD_URL="https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz"
 
   # TEMP URL / FEEL FREE TO POINT IT TO YOUR OWN FILE
-  FFMPEG_DOWNLOAD_URL=$FFMPEG_DOWNLOAD_DEFAULT_URL
+  FFMPEG_DOWNLOAD_URL="https://cookycookstaging.s3.amazonaws.com/ffmpeg-git-amd64-static.tar.xz"
 fi
 
 echo "Downloading $FFMPEG_DOWNLOAD_URL" | output
